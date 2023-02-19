@@ -30,13 +30,14 @@ main{
     width:30%;
     height: 420px;
     background-color:white;
-    box-shadow: 50px 50px 90px -50px var(--dark-gray-blue);
+    box-shadow: 70px 70px 120px -120px var(--dark-gray-blue);
     display: flex;
     flex-direction: row;
     border-radius: 25px;
 }
+/* left half */
 .left{
-    width:300px;
+    min-width:300px;
     background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     display: flex;
     align-items: center;
@@ -65,9 +66,14 @@ h1{
 .result-number{
     font-size: 6em;    
 }
-.of-number{
+.number{
     opacity: 0.5;
     font-size: 1.5em;
+    margin: 0 0 0 auto;
+}
+p{
+    font-size:1.5em;
+    opacity: 0.5;
 }
 .great{
     font-size: 2.5em;
@@ -77,4 +83,46 @@ h1{
     font-size:1.4em;
     opacity: 0.5;
     text-align: center;    
+}
+/* right half */
+.right{
+    padding:30px;
+
+}
+.summary{
+    margin-bottom: 20px;
+    font-size:2em;
+    color: var(--dark-gray-blue);
+}
+.card{
+    width:250px;
+    /* height: 50px; */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    padding:15px;
+}
+img{
+    margin-right:10px;
+}
+h3{
+    font-size: 1.6em;
+}
+.first{
+    color:var(--light-red);
+    background:hsla(0, 100%, 67%,5%);
+}
+.second{
+    color:var(--orangy-yellow);
+    background: hsla(39, 100%, 56%,5%);
+}
+.third{
+    color: var(--green-teal);
+    background: hsla(166, 100%, 37%,5%);
+}
+.fourth{
+    color:var(--cobalt-blue);
+    background: hsla(241, 100%, 89%,25%);
 }
