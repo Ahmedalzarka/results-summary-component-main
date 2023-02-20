@@ -93,7 +93,7 @@ p{
     min-width:230px;
     padding: 10px;
     border-radius: 10px;
-    margin: 15px auto;
+    margin: 10px auto;
     display: flex;
     align-items: center;
     padding:15px;
@@ -102,7 +102,7 @@ img{
     margin-right:10px;
 }
 h3{
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 .number{
     font-size: 1.5em;
@@ -128,11 +128,19 @@ span{
 .fourth{
     color:var(--cobalt-blue);
     background: hsla(241, 100%, 89%,25%);
+    margin-bottom: 30px;
 }
 button{
     background-color: var(--dark-gray-blue);
     color:white;
-    padding:10px 95px;
+    padding:15px 95px;
     border-radius: 500px;
     font-size:1.5em;
+    margin-top:auto;
+    border: none;
+}
+button:hover{
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color:white;
+    margin-top:auto;
 }
